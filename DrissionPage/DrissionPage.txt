@@ -1,0 +1,47 @@
+DrissionPage官网
+Drission 是本库作者自创的单词,为 Driver 和 Session 的合体。 因此Drission 读作 “拽神”,Page 则表示以页面为单位操作。 📝 使用条款​ 禁止将 DrissionPage 应用到任何可能违反当地法律规定和道德约束的项目中 禁止将 DrissionPage 用于任何可能有损他人利益的项目中 禁止将 Driss
+drissionpage.cn/
+ 入门指南 
+ DrissionPage支持win、linux、mac，python3.6+，可用pip安装及升级。 
+ 支持作者 
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2356291831611012" 
+ 开发进度 
+ DrissionPage官网v4.1版本更新，增加新属性及方法，修复多个问题和异常，提高运行速度。 
+g1879/DrissionPage - GitHub
+A module that integrates selenium and requests session, encapsulates common page operations, can achieve seamless switching between the two modes.
+协议：BSD 3-Clause "New" or "Revised" License
+语言：Python
+最新版本：v2.5.7
+Star：553
+Pull requestsIssuesReleases
+https://github.com/g1879/DrissionPage
+
+推荐一款新的自动化测试框架:DrissionPage!-腾讯云开发者社区...
+今天给大家推荐一款基于Python的网页自动化工具:DrissionPage。这款工具既能控制浏览器,也能收发数据包,甚至能把两者合而为一,简单来说:集合了WEB浏览器自动化的便利性和 requests 的高效率。 一、DrissionPage产生背景 实现网页自动化,会有两类形式: 直接向服务器发送请求数据包,获取需要的数据 模拟真实用户操作行...
+腾讯云计算
+自动化测试工具-DrissionPage-腾讯云开发者社区-腾讯云
+本文将介绍一款简洁而强大的自动化测试工具-DrissionPage 2、简介 DrissionPage是一款基于Python的高效网页自动化工具。 它不仅能够操控浏览器,还能发送和接收数据包,并将这两种功能完美融合。 既保留了浏览器自动化的便捷性,又具备了requests库的高效处理能力。 功能强大,集成了众多人性化设计和实用功能。 语法简明优雅...
+腾讯云计算
+DrissionPage - Web应用开发 - 青少年人工智能资源与创新平台...
+DrissionPage 一个整合了selenium和requests_html的模块,封装了常用页面操作,可实现两种模式的无缝切换。兼顾selenium的易用性和requests的高性能,也可直接用于PO模式。
+北京师范大学青少年人工智能资源与创新平台
+播报
+暂停
+大家还在搜
+drissionpage怎么读vocalistener中文版watchgames中文tasker中文assess和access区别Stream.ofcondensation reactionstreaming指什么网络
+Drission 社区 - Drission 社区
+DrissionPage 是一个强大的网页自动化工具,但只是个人独立开发项目。在本就很优秀的项目的基础上加入多人贡献,是否能诞生优秀的网页自动化生态?这是个值得努力的问题。 g1879@qq.com   团队(1) Sao骚神小组 暂无描述 2 仓库 仓库(6) DrissionPage forked from DrissionPage 基于python的网页自动化...
+gitee.com/DrissionCom
+DrissionPage的使用详解
+DrissionPage 使用详解 DrissionPage 是一个功能强大的前端框架,旨在帮助开发者快速构建现代化、响应式的网页应用。以下是对 DrissionPage 的详细使用指南,包括安装、配置、组件使用以及常见问题的解决方法。 一、安装与初始化 环境准备 确保你已经安装了 Node.js 和 npm(或 yarn)。 创建一个新的项目目录并进入该...
+橙篇
+播报
+暂停
+【0基础学爬虫】爬虫基础之自动化工具 DrissionPage 的使用 - 知乎
+2024年6月17日而本期要讲的 DrissionPage 更为独特,强大,而且使用更为方便,目前检测少,强烈推荐!!! 这里推荐观看十一姐 B 站 DrissionPage 系列视频,很详细: 合集·爬虫自动化 DrissionPage 实战案例: space.bilibili.com/3087 DrissionPage 相关资料: 官方文档:https://www.drissionpage.cn Drissionpage “姊妹库”:...
+知乎
+告别Selenium!DrissionPage元素定位的十大效率革命-CSDN博客
+8天前传统元素定位往往需要编写冗长的XPath或CSS选择器,而DrissionPage创新的链式查找语法让DOM导航变得直观优雅。 # 传统多层查找需要重复编写选择器 selenium_element = driver.find_element(By.ID,'container') .find_element(By.CLASS_NAME,'item') .find_element(By.TAG_NAME,'a') ...
+CSDN博客
+播报
+暂停
