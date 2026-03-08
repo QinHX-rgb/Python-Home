@@ -1,0 +1,60 @@
+{% extends 'base_foot.html' %}
+{% load static from staticfiles %}
+
+{% block header %}
+    <div class="header_con">
+		<div class="header">
+			<div class="welcome fl">欢迎来到天天书城!</div>
+			<div class="fr">
+                {% if request.session.user_name %}
+				<div class="login_info fl">
+					欢迎您：<em>{{ request.session.user_name }}</em>
+				</div>
+				<div class="user_link fl">
+                    <span>|</span>
+					<a href="/goods/index">首页</a>
+					<span>|</span>
+					<a href="/user/info">用户中心</a>
+					<span>|</span>
+					<a href="/cart">我的购物车</a>
+					<span>|</span>
+					<a href="/user/order">我的订单</a>
+                    <span>|</span>
+                    <a href="/user/logout">退出</a>
+				</div>
+                {% else %}
+                <div class="login_btn fl">
+					<a href="/user/login">登录</a>
+					<span>|</span>
+					<a href="/user/register">注册</a>
+				</div>
+                {% endif %}
+			</div>
+		</div>
+	</div>
+
+	<div class="search_bar clearfix">
+		<a href="/goods/index" class="logo fl"><img src="{% static 'images/logo.png' %}"></a>
+		<div class="sub_page_name fl">|&nbsp;&nbsp;&nbsp;&nbsp;用户中心</div>
+		<div class="search_con fr">
+			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
+			<input type="button" class="input_btn fr" name="" value="搜索">
+		</div>
+	</div>
+{% endblock header %}
+
+{% block body %}
+    <div class="main_con clearfix">
+		<div class="left_menu_con clearfix">
+			<h3>用户中心</h3>
+			<ul>
+				<li><a href="/user/info" {% if info %} class="active" {% endif %}>· 个人信息</a></li>
+				<li><a href="/user/order" {% if order %} class="active" {% endif %}>· 全部订单</a></li>
+				<li><a href="/user/site" {% if site %} class="active" {% endif %}>· 收货地址</a></li>
+			</ul>
+		</div>
+        {% block right_content %}
+        {% endblock %}
+    </div>
+
+{% endblock body %}
